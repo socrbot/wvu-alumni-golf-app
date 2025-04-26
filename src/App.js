@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import DraftDisplay from "./components/DraftDisplay";
 import GolfersTable from "./components/GolfersTable";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
         <div>
             <h1>WVU Alumni Golf</h1>            
 			<GolfersTable />
-			
+			<DraftDisplay />
         </div>
     );
 }
